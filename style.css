@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightpink;
+}
+
+.container{
+    background-color: aqua;
+    padding: 2em;
+    border-radius: .5em;
+}
+
+input,button{
+    padding: .5em .75em;
+    outline: none;
+    border: none;
+    border-radius: .5em;
+    
+}
+button{
+    cursor: pointer;
+    background-color: bisque;
+    font-weight: bold;
+    
+}
+
+.options{
+    margin-top: 2rem;
+}
+
+.options > div{
+    padding: .5em 0;
+}
